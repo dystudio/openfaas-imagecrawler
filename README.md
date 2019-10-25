@@ -1,6 +1,6 @@
 # openfaas-imagecrawler
 
-An [openfaas](https://www.openfaas.com/) function 
+An [openfaas](https://www.openfaas.com/) function which is an image crawler that returns a list of jpg and png image on a site
 ```bash
 # deploy
 faas-cli deploy -f stack.yml
