@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+functions:
+  openfaas-imagecrawler:
+    lang: python3
+    handler: ./openfaas-imagecrawler
+    image: servernull/openfaas-imagecrawler:0.1.0
+
