@@ -1,5 +1,6 @@
 # openfaas-imagecrawler
 
+An [openfaas](https://www.openfaas.com/) function 
 ```bash
 # deploy
 faas-cli deploy -f stack.yml
