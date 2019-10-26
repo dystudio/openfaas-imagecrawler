@@ -33,7 +33,7 @@ def find_all_images(all_urls):
 			temp_images.extend(images)
 		except:
 			# print("Error finding all images:"+url)
-			return []
+			nop = None
 
 	return temp_images
 
