@@ -6,23 +6,21 @@ An [openfaas](https://www.openfaas.com/) function which is an image crawler that
 faas-cli deploy -f stack.yml
 
 # invoke synchronously
-echo https://lotussoulstudios.com | faas-cli invoke openfaas-imagecrawler | jq
+echo http://scottleedavis.com | faas-cli invoke openfaas-imagecrawler | jq
 
 # invoke asynchonously
-echo https://lotussoulstudios.com | faas-cli invoke openfaas-imagecrawler --async --header "X-Callback-Url=http://192.168.0.22:9999"
+echo http://scottleedavis.com | faas-cli invoke openfaas-imagecrawler --async --header "X-Callback-Url=http://192.168.0.22:9999"
 
 [
-  "http://www.lotussoulstudios.com/wp-content/blogs.dir/60/files/2017/12/IMG_9453.jpg",
-  "https://lotussoulstudios.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/64x64/facebook.png",
-  "https://lotussoulstudios.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/64x64/youtube.png",
-  "https://lotussoulstudios.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/64x64/twitter.png",
-  "http://www.lotussoulstudios.com/wp-content/blogs.dir/60/files/2014/06/Door-of-Choice.jpg",
-  "https://lotussoulstudios.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/64x64/mail.png",
-  "https://lotussoulstudios.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/64x64/linkedin.png",
-  "https://lotussoulstudios.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/64x64/tumblr.png",
-  "https://lotussoulstudios.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/64x64/reddit.png",
-  "http://www.lotussoulstudios.com/wp-content/blogs.dir/60/files/2018/02/IMG_0877.jpg",
-  "https://lotussoulstudios.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/64x64/flickr.png",
-  "https://lotussoulstudios.com/wp-content/plugins/social-media-feather/synved-social/image/social/regular/64x64/pinterest.png"
+  "http://scottleedavis.com/assets/img/tortoise.jpg",
+  "http://scottleedavis.com/assets/img/linkedin.png",
+  "http://scottleedavis.com/assets/img/achilles.jpg",
+  "http://scottleedavis.com/assets/img/github.png",
+  "http://scottleedavis.com/assets/img/ijmuiden-gps-data-1.jpg",
+  "http://scottleedavis.com/assets/img/circadia.png",
+  "http://scottleedavis.com/assets/img/twitter.png",
+  "http://scottleedavis.com/assets/img/scott.jpeg",
+  "http://scottleedavis.com/assets/img/light_art.png",
+  "https://github.com/scottleedavis/google-earth-toolbox/raw/master/screenshot.png"
 ]
 ```
