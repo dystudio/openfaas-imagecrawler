@@ -4,7 +4,7 @@ import json
 from bs4 import BeautifulSoup
 import re
 
-max_depth = 1 #todo increase: > 1 max depth leads to `unexpected status code: 502`
+max_depth = 2 #todo increase: > 1 max depth leads to `unexpected status code: 502`
 
 def handle(req):
     """handle a request to the function
