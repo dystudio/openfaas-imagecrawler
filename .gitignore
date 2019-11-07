@@ -1,4 +1,4 @@
 template
 build
-openfaas-imagecrawler/venv
+openfaas-imagecrawler-old/venv
 openfaas-imagecrawler/node_modules
